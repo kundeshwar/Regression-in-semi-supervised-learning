@@ -11,9 +11,9 @@ To run this project, you need to have Python installed on your machine. You can 
 To install the required libraries, run the following command in your terminal:
 
 **Copy code**<br>
-'''
+```
 pip install pandas matplotlib seaborn scikit-learn
-'''<br>
+```
 ## Usage
 To run the project, open the regression_in_semi_supervised_learning.py file in your Python IDE or text editor and run the file. The code will load the data from the CSV file, preprocess it, split the data into training, test, and unlabelled data, train the model on the labelled data, predict the labels for the unlabelled data, and then train the model on the complete dataset. The code will also evaluate the model's performance using R-squared error and plot the actual prices against the predicted prices.
 
